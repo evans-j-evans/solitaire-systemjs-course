@@ -1,7 +1,7 @@
 describe("A card", function () {
   "use strict";
 
-  it("should link to the image of the suit and rank", function () {
+  //it("should link to the image of the suit and rank", function () {
     expect(new Card({rank: "King", suit: "Spades"}).image).toBe("6.png");
     expect(new Card({rank: "8", suit: "Hearts"}).image).toBe("27.png");
     expect(new Card({rank: "Ace", suit: "Diamonds"}).image).toBe("4.png");
