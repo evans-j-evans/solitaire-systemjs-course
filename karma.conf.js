@@ -1,6 +1,6 @@
 /* eslint-env node*/
 
-module.exports = function (config) {
+//module.exports = function (config) {
   "use strict";
 
   config.set({
